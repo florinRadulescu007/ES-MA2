@@ -2,9 +2,11 @@
 
 This webpage contains all practical information related to the course.
 
+Site deployed to: [https://oliver-butterley.github.io/ma2-2024/]
+
 ## Technical details
 
-The webpage uses [vitepress](https://vitepress.dev) to generate everything from content written in markdown. Site is available at [https://www.mat.uniroma2.it/butterley/MA2/].
+The webpage uses [vitepress](https://vitepress.dev) to generate everything from content written in markdown. 
 
 ## Local editing
 
