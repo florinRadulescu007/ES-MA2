@@ -1,0 +1,50 @@
+/*
+ * Print styles
+ */
+@media print {
+  /*
+   * Text size is NOT set here. VitePress fixes `body { line-height: 24px }`
+   * and `.vp-doc p { line-height: 28px }` in px, so shrinking font-size in CSS
+   * leaves the leading behind and the text comes out loosely spaced. Size is
+   * handled by `pdfOptions.scale` in vitepress-pdf.config.ts instead, which
+   * scales text, leading, margins and maths together.
+   */
+
+  /* Navigation and page furniture that only mean anything on screen. */
+  .VPNav,
+  .VPLocalNav,
+  .VPSidebar,
+  .VPDocAside,
+  .VPDocFooter,
+  .VPFooter,
+  .VPSkipLink,
+  .VPBackdrop {
+    display: none !important;
+  }
+
+  /* Reclaim the gutters the hidden sidebar and aside were reserving. */
+  .VPDoc {
+    padding: 0 !important;
+  }
+  .VPDoc .container,
+  .VPDoc .content,
+  .VPDoc .content-container {
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Keep headings with their text, and don't split things that read as a unit. */
+  .vp-doc h1,
+  .vp-doc h2,
+  .vp-doc h3,
+  .vp-doc h4 {
+    break-after: avoid;
+  }
+  .vp-doc table,
+  .vp-doc figure,
+  .vp-doc pre,
+  .custom-block {
+    break-inside: avoid;
+  }
+}

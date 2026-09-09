@@ -38,7 +38,7 @@ export default defineUserConfig({
 
   // PDF generation options
   pdfOptions: {
-    // Page format
+    scale: 0.85,
     format: 'A4',
 
     // Page margins
