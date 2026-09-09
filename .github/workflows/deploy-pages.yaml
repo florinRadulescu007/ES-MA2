@@ -44,6 +44,11 @@ jobs:
         run: npm run export-pdf
         env:
           DEPLOY_BASE: ${{ steps.pages.outputs.base_path }}
+      - name: Check the PDF was produced
+        run: |
+          test -s .vitepress/dist/MA2-2025.pdf \
+            || { echo "::error::PDF export produced no MA2-2025.pdf"; exit 1; }
+          echo "PDF size: $(du -h .vitepress/dist/MA2-2025.pdf | cut -f1)"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

@@ -15,9 +15,14 @@ const pages = [
   'pages/exercises5',
   'pages/exercises6',
 ]
-const routes = pages.map((p) => `${base}${p}`)
+const routes = pages.map((p) => `${base}${p === '' ? 'index' : p}.html`)
 
 export default defineUserConfig({
+  // GitHub's runners give Chrome no usable SUID sandbox, so it refuses to start
+  puppeteerLaunchOptions: {
+    args: ['--no-sandbox', '--disable-setuid-sandbox'],
+  },
+
   // Output file name
   outFile: 'MA2-2025.pdf',
 
