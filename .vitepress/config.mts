@@ -98,22 +98,26 @@ export default defineConfig({
       // { text: "Mini-projects", link: "pages/project" },
     ],
 
-    ...(repoSlug && {
-      editLink: {
-        pattern: `https://github.com/${repoSlug}/edit/main/:path`,
-        text: "Edit this page on GitHub",
-      },
-    }),
+    ...(repoSlug
+      ? {
+          editLink: {
+            pattern: `https://github.com/${repoSlug}/edit/main/:path`,
+            text: "Edit this page on GitHub",
+          },
+        }
+      : {}),
 
     search: {
       provider: "local",
     },
 
-    ...(repoSlug && {
-      socialLinks: [
-        { icon: "github", link: `https://github.com/${repoSlug}/` },
-      ],
-    }),
+    ...(repoSlug
+      ? {
+          socialLinks: [
+            { icon: "github", link: `https://github.com/${repoSlug}/` },
+          ],
+        }
+      : {}),
 
     lastUpdated: {
       text: "Updated at",
