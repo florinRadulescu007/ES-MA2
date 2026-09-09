@@ -1,37 +1,37 @@
 date,time,topic,week,instructor
-29/09/2025,14:00-15:45,"Overview of the course, MA1 vs MA2, why are we here, higher dimension, vector fields, etc.",1,Butterley
-01/10/2025,09:30-11:15,"Directional derivatives of scalar fields, partial derivatives",1,Butterley
-03/10/2025,11:30-13:15,"Domains in higher dimensions, directional derivatives, partial derivatives and gradients",1,Butterley
-06/10/2025,14:00-15:45,"Chain rule for scalar fields, level sets, gradient and tangent lines",2,Butterley
-08/10/2025,09:30-11:15,"Chain rule, applications to differentiations, Jacobian matrix",2,Butterley
-08/10/2025,11:30-13:15,"Jacobian matrix, chain rule for vector fields, implicit functions, higher partial derivatives",2,Butterley
-13/10/2025,14:00-15:45,"Stationary points of a scalar field",3,Butterley
-15/10/2025,09:30-11:15,"Classification of stationary points, the Hessian matrix",3,Butterley
-15/10/2025,11:30-13:15,"Various examples of finding extrema of scalar fields and Taylor expansion",3,Butterley
-20/10/2025,14:00-15:45,"Class cancelled",4,Butterley
-22/10/2025,09:30-11:15,"Class cancelled",4,Butterley
-22/10/2025,11:30-13:15,"Class cancelled",4,Butterley
-27/10/2025,14:00-15:45,"Lagrange multiplier method (intro, geometric intuition)",5,Butterley
-29/10/2025,09:30-11:15,"Lagrange multiplier method (further examples)",5,Butterley
-29/10/2025,11:30-13:15,"Lagrange multiplier method (higher dimensional examples)",5,Butterley
-03/11/2025,14:00-15:45,"Line integrals (intro, definition of line integral of a vector field and a scalar field)",6,Butterley
-05/11/2025,09:30-11:15,"Line integrals (various examples, 2nd and 1st fundamental theorems)",6,Butterley
-07/11/2025,11:30-13:15,"Class cancelled",6,Butterley
-10/11/2025,14:00-15:45,"Line integrals",7,Butterley
-12/11/2025,09:30-11:15,"Line integrals",7,Butterley
-14/11/2025,11:30-13:15,"Line integrals",7,Butterley
-17/11/2025,14:00-15:45,"Multiple integrals",8,Butterley
-19/11/2025,09:30-11:15,"Multiple integrals",8,Butterley
-21/11/2025,11:30-13:15,"Multiple integrals",8,Butterley
-24/11/2025,14:00-15:45,"Multiple integrals",9,Butterley
-26/11/2025,09:30-11:15,"Multiple integrals",9,Butterley
-28/11/2025,11:30-13:15,"Multiple integrals",9,Butterley
-01/12/2025,14:00-15:45,"Surface integrals",10,Butterley
-03/12/2025,09:30-11:15,"Surface integrals",10,Butterley
-05/12/2025,11:30-13:15,"Surface integrals",10,Butterley
-08/12/2025,14:00-15:45,"Class cancelled (due to dubious concepts of conception)",11,Butterley
-10/12/2025,09:30-11:15,"Surface integrals",11,Butterley
-12/12/2025,11:30-13:15,"Surface integrals",11,Butterley
-15/12/2025,14:00-15:45,"Surface integrals",12,Butterley
-17/12/2025,09:30-11:15,"Surface integrals",12,Butterley
-19/12/2025,11:30-13:15,"Surface integrals",12,Butterley
+21/09/2026,14:00-15:45,[Cancelled],1,
+23/09/2026,09:30-11:15,[Cancelled],1,
+25/09/2026,11:30-13:15,[Cancelled],1,
+06/10/2025,14:00-15:45,,2,Butterley
+08/10/2025,09:30-11:15,,2,Butterley
+08/10/2025,11:30-13:15,,2,Butterley
+13/10/2025,14:00-15:45,,3,Butterley
+15/10/2025,09:30-11:15,,3,Butterley
+15/10/2025,11:30-13:15,,3,Butterley
+20/10/2025,14:00-15:45,,4,Butterley
+22/10/2025,09:30-11:15,,4,Butterley
+22/10/2025,11:30-13:15,,4,Butterley
+27/10/2025,14:00-15:45,,5,Butterley
+29/10/2025,09:30-11:15,,5,Butterley
+29/10/2025,11:30-13:15,,5,Butterley
+03/11/2025,14:00-15:45,,6,Butterley
+05/11/2025,09:30-11:15,,6,Butterley
+07/11/2025,11:30-13:15,,6,Butterley
+10/11/2025,14:00-15:45,,7,Butterley
+12/11/2025,09:30-11:15,,7,Butterley
+14/11/2025,11:30-13:15,,7,Butterley
+17/11/2025,14:00-15:45,,8,Butterley
+19/11/2025,09:30-11:15,,8,Butterley
+21/11/2025,11:30-13:15,,8,Butterley
+24/11/2025,14:00-15:45,,9,Butterley
+26/11/2025,09:30-11:15,,9,Butterley
+28/11/2025,11:30-13:15,,9,Butterley
+01/12/2025,14:00-15:45,,10,Butterley
+03/12/2025,09:30-11:15,,10,Butterley
+05/12/2025,11:30-13:15,,10,Butterley
+08/12/2025,14:00-15:45,,11,Butterley
+10/12/2025,09:30-11:15,,11,Butterley
+12/12/2025,11:30-13:15,,11,Butterley
+15/12/2025,14:00-15:45,,12,Butterley
+17/12/2025,09:30-11:15,,12,Butterley
+19/12/2025,11:30-13:15,,12,Butterley
