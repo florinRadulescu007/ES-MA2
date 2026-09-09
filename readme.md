@@ -2,11 +2,11 @@
 
 This webpage contains all practical information related to the course.
 
-Site deployed to: [https://oliver-butterley.github.io/ma2-2024/]
+Site deployed to GitHub Pages; the current URL is shown in the `github-pages` deployment in the sidebar.
 
 ## Technical details
 
-The webpage uses [vitepress](https://vitepress.dev) to generate everything from content written in markdown. 
+The webpage uses [vitepress](https://vitepress.dev) to generate everything from content written in markdown.
 
 ## Local editing
 
@@ -14,4 +14,4 @@ In order to preview locally, make sure [node.js](https://nodejs.org/en) is insta
 
 See the [full list of markdown extensions](https://vitepress.dev/guide/markdown) from vitepress. Additionally superscript is written as `2^nd^`, etc using a [plugin](https://github.com/markdown-it/markdown-it-sup).
 
-Commits to `main` are automatically processed and deployed to the server.
+Commits to `main` are automatically built and deployed to GitHub Pages.

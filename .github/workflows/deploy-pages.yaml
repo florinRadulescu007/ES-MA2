@@ -32,16 +32,18 @@ jobs:
           cache: npm
       - name: Install dependencies
         run: npm ci
+      # Runs before the build so that `base_path` can be fed to VitePress.
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
       - name: Build with VitePress
         run: npm run build
         env:
-          DEPLOY_BASE: "/ma2-2024/"
+          DEPLOY_BASE: ${{ steps.pages.outputs.base_path }}
       - name: Export PDF
         run: npm run export-pdf
         env:
-          DEPLOY_BASE: "/ma2-2024/"
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
+          DEPLOY_BASE: ${{ steps.pages.outputs.base_path }}
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

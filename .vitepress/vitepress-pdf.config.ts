@@ -1,7 +1,5 @@
 import { defineUserConfig, type PageType } from 'vitepress-export-pdf'
-
-// Must match `base` in config.mts (overridable for different deploy targets)
-const base = process.env.DEPLOY_BASE ?? '/butterley/MA2/'
+import { deployBase as base } from './repo'
 
 // Pages to include, in order, relative to the site base
 const pages = [

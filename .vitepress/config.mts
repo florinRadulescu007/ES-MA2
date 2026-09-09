@@ -3,6 +3,7 @@ import mdImplicitFigures from "markdown-it-implicit-figures";
 import mdSuperscript from "markdown-it-sup";
 import MarkdownIt from "markdown-it";
 import mdContainer from "markdown-it-container";
+import { repoSlug, deployBase } from "./repo";
 
 const courseParts = [
   // "Mathematical reasoning",
@@ -46,7 +47,7 @@ export default defineConfig({
   lang: "en-GB",
   title: "Mathematical Analysis 2",
   description: "Course material for Mathematical Analysis 2 (2025-26)",
-  base: process.env.DEPLOY_BASE ?? "/butterley/MA2/",
+  base: deployBase,
 
   head: [
     ["link", { rel: "shortcut icon", href: "/favicon.png", type: "image/png" }],
@@ -97,18 +98,22 @@ export default defineConfig({
       // { text: "Mini-projects", link: "pages/project" },
     ],
 
-    editLink: {
-      pattern: "https://github.com/oliver-butterley/ma2-2024/edit/main/:path",
-      text: "Edit this page on GitHub",
-    },
+    ...(repoSlug && {
+      editLink: {
+        pattern: `https://github.com/${repoSlug}/edit/main/:path`,
+        text: "Edit this page on GitHub",
+      },
+    }),
 
     search: {
       provider: "local",
     },
 
-    socialLinks: [
-      { icon: "github", link: "https://github.com/oliver-butterley/ma2-2024/" },
-    ],
+    ...(repoSlug && {
+      socialLinks: [
+        { icon: "github", link: `https://github.com/${repoSlug}/` },
+      ],
+    }),
 
     lastUpdated: {
       text: "Updated at",
