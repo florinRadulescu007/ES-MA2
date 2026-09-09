@@ -2,6 +2,10 @@
 
 # Differential calculus in higher dimension
 
+::: warning
+The information in this section is being updated.
+:::
+
 In this part of the course we work on the following skills:
 
 - Become comfortable working with coordinates in arbitrary dimension.

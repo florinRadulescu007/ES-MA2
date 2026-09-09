@@ -2,6 +2,10 @@
 
 # Extrema
 
+::: warning
+The information in this section is being updated.
+:::
+
 In this part of the course we work on the following skills:
 
 - Locating and classifying the extrema of scalar fields.

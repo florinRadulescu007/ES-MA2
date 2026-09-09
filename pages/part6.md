@@ -2,6 +2,10 @@
 
 # Surface integrals
 
+::: warning
+The information in this section is being updated.
+:::
+
 See also the [additional exercises](/pages/exercises6) associated to this part of the course. If you want more, Sections 6.4 to 6.8 of [OpenStax Calculus Volume 3](https://openstax.org/details/books/calculus-volume-3) are a good option.
 
 In this section we consider surfaces and how to define integral of vector fields over these surfaces. This is similar in many ways to line integrals but a higher dimensional version. Curves (for line integrals) are 1D subsets of higher dimensional space whereas surfaces are 2D subsets of higher dimensional space. Identically to line integrals, the first step is to understand a practical way to represent the surfaces, just like with curves we used paths as the parametric representation of the curve. Once we have clarified the parametric representation of surface we can define the surface integral (of a vector field) and show that it satisfies various properties which we would expect, including that the integral is independent of the choice of parametrization. Similar to how we were able to use a line integral (of a scalar) to calculate the length of a curve we can use a surface integral (of a scalar) to calculate the area of a surface.

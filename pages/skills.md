@@ -1,5 +1,9 @@
 # Mathematical Analysis 2: Key skills
 
+::: warning
+The information in this section is being updated.
+:::
+
 ## Sequences and series of functions
 
 - Distinguish point-wise and uniform convergence

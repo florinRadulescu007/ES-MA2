@@ -2,6 +2,10 @@
 
 # Curves & line integrals
 
+::: warning
+The information in this section is being updated.
+:::
+
 In this part of the course we work on the following skills:
 
 - Work with parametric paths

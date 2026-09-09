@@ -1,18 +1,16 @@
 # Evaluation
 
-Evaluation is by written exam followed by an oral exam.
+::: warning
+The information in this section is being updated.
+:::
 
-> **Note:** This year there are no exercises giving credit, nor midterms, nor projects for this course.
+Evaluation is by written exam followed by an oral exam.
 
 ## Written exam
 
 At the end of the course there is a written exam. This will test the course participant's ability for all the parts of the course. Practising exercises for all the topics is the best preparation for the exam.
 
-It is permitted to take up to 4 A4 sheets (or equivalent surface area) of notes to the exam. No electronic devices are permitted in the exam.
-
 During the written exam solutions must be written completely and fully justified.
-
-The written exam consist of two parts, each of 90 minutes duration. Each part consists of 3 questions. After the end of the first part, course participants submit their solutions to that part and we take a 30 minute break before starting the second part.
 
 ## Oral exam
 
@@ -28,14 +26,9 @@ A grade of 18 or above and is considered as passing the course. The highest grad
 
 For exam dates and reservation, see [Delphi](https://delphi.uniroma2.it/).
 
-- Call 1: 20/01/2026, (Part 1: 9:30-11:00, Part2: 11:30-13:00, Oral: afternoon) [Questions and solutions](/call1.pdf)
-- Call 2: 24/02/2026, (Part 1: 9:30-11:00, Part2: 11:30-13:00, Oral: afternoon) [Questions and solutions](/call2.pdf)
+- Call 1: TBA
+- Call 2: TBA
 - Call 3: TBA
 - Call 4: TBA
 - Call 5: TBA
 - Call 6: TBA
-
-## Past exams
-
-- 2024–25: [Call 1](/exams/2024-25/call1.pdf), [Call 2](/exams/2024-25/call2.pdf), [Call 3](/exams/2024-25/call3.pdf), [Call 4](/exams/2024-25/call4.pdf), [Call 6](/exams/2024-25/call6.pdf)
-- 2023–24: [Call 1](/exams/2023-24/call1.pdf), [Call 2](/exams/2023-24/call2.pdf), [Call 3](/exams/2023-24/call3.pdf), [Call 4](/exams/2023-24/call4.pdf)

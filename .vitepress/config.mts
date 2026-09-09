@@ -6,7 +6,7 @@ import mdContainer from "markdown-it-container";
 import { repoSlug, deployBase } from "./repo";
 
 const courseParts = [
-  // "Mathematical reasoning",
+  "Mathematical reasoning",
   "Higher dimension",
   "Extrema",
   "Line integrals",
@@ -91,17 +91,17 @@ export default defineConfig({
       { text: "Lecture diary", link: "/pages/diary" },
       {
         text: "Lecture notes",
-        items: Array.from(Array(5), (_, n) => ({
-          text: `${n + 1}. ${courseParts[n]}`,
-          link: `/pages/part${n + 2}`,
+        items: Array.from(Array(6), (_, n) => ({
+          text: `${n}. ${courseParts[n]}`,
+          link: `/pages/part${n + 1}`,
         })),
         collapsed: false,
       },
       {
         text: "Exercises",
-        items: Array.from(Array(5), (_, n) => ({
-          text: `${n + 1}. ${courseParts[n]}`,
-          link: `/pages/exercises${n + 2}`,
+        items: Array.from(Array(6), (_, n) => ({
+          text: `${n}. ${courseParts[n]}`,
+          link: `/pages/exercises${n + 1}`,
         })),
         collapsed: false,
       },
@@ -141,7 +141,7 @@ export default defineConfig({
       message:
         'Released under the <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 License</a>',
       copyright:
-        'Copyright © 2023 <a href="https://www.mat.uniroma2.it/butterley/">Oliver Butterley</a>',
+        'Copyright © 2026',
     },
   },
 });

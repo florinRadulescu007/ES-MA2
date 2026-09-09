@@ -1,5 +1,9 @@
 # Partial differential equations
 
+::: warning
+The information in this section is being updated.
+:::
+
 There are a huge number of different types of partial differential equations (PDEs) and here we consider just two types, _first order linear PDEs_ and the _1D wave equation_. We start by consider an example of the first type.
 
 Find all solutions of the PDE,
