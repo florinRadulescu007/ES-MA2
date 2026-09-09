@@ -1,4 +1,5 @@
 {
+  "name": "es-ma2",
   "devDependencies": {
     "@types/node": "^26.5.0",
     "csv-parse": "^7.0.2",
