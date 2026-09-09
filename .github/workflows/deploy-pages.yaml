@@ -40,6 +40,8 @@ jobs:
         run: npm run build
         env:
           DEPLOY_BASE: ${{ steps.pages.outputs.base_path }}
+      - name: Install Chrome for the PDF export
+        run: npx puppeteer browsers install chrome
       - name: Export PDF
         run: npm run export-pdf
         env:
