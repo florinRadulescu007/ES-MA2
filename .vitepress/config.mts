@@ -56,6 +56,16 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: false,
 
+  // Markdown that lives in the working tree but is not course content.
+  srcExclude: [
+    "venv/**",
+    ".venv/**",
+    "**/readme.md",
+    "**/README.md",
+    "**/license.md",
+    "**/LICENSE.md",
+  ],
+
   markdown: {
     math: true,
     config: (md) => {
