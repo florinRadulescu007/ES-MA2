@@ -22,7 +22,7 @@ Classes:
 - Wednesday 09:30 - 11:15
 - Friday 11:30 - 13:15
 
-## Lecture notes and key skills learnt in the course -->
+## Lecture notes and key skills learnt in the course
 
 See [here](/pages/skills) for a list of the key skills learnt in this course.
 
