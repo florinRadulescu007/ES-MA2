@@ -1,4 +1,4 @@
-# Mathematical Analysis 2 - University of Rome Tor Vergata, 2025-26
+# Mathematical Analysis 2 - University of Rome Tor Vergata, 2026-27
 
 This webpage contains all practical information related to the course.
 
