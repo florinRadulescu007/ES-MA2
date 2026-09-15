@@ -21,6 +21,9 @@ Classes:
 - Monday 14:00 - 15:45
 - Wednesday 09:30 - 11:15
 - Friday 11:30 - 13:15
+  
+
+Notice. The classes scheduled for Monday 21 September and Wednesday 23 September 2026 are cancelled. The course will start on Friday 25 September. The missed teaching hours will be recovered in additional exercise sessions.
 
 ## Lecture notes and key skills learnt in the course
 
