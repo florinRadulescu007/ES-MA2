@@ -29,6 +29,10 @@ Notice. The classes scheduled for Monday 21 September and Wednesday 23 September
 
 See [here](/pages/skills) for a list of the key skills learnt in this course.
 
+## Microsoft Teams
+
+[Join the Mathematical Analysis 2 class team](https://teams.microsoft.com/l/team/19%3A0g6SgYc0-SQK46KQUbhVns_7RlsIjwcjFQkL_CVGmxE1%40thread.tacv2/conversations?groupId=db2bfdab-bdb0-481c-8de4-e61703f20964&tenantId=24c5be2a-d764-40c5-9975-82d08ae47d0e)
+
 A [pdf of lecture notes](https://www.mat.uniroma2.it/butterley/ma2.pdf) is available for download.
 If you wish to have a reference book, we recommend [Mathematical Analysis II by Canuto and Tabacco](https://link.springer.com/book/10.1007/978-3-319-12757-6).
 
